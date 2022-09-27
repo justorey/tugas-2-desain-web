@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Keluhan Masyarakat</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="text/javascript" src="./script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <form onsubmit="return validateContactForm()">
+        <h1>Form keluhan Masyarakat</h1>
+        <br /><br />
+        <input
+          type="text"
+          id="nama"
+          placeholder="Nama"
+          class="input-box"
+        /><br /><br /><br />
+        <input
+          type="text"
+          id="alamat"
+          class="input-box"
+          placeholder="alamat"
+        /><br /><br /><br />
+        <input
+          type="text"
+          id="nomer_telpon"
+          class="input-box"
+          placeholder="nomer telpon"
+        /><br /><br /><br />
+        <textarea
+          id="Keluhan"
+          name="keluhan"
+          rows="6"
+          cols="70"
+          style="resize: none"
+          placeholder="keluhan"
+        ></textarea
+        ><br /><br />
+        <input type="submit" value="Kirim Pesan" id="button" />
+      </form>
+    </div>
+  </body>
+</html>
